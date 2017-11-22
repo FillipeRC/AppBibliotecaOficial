@@ -150,6 +150,8 @@ public class LoginAdm extends javax.swing.JFrame {
                 usuario.setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
                 usuario.setResizable(false);
                 UIInterfaceUsuario.setInstance(usuario);
+                
+                
                 usuario.setVisible(true);
             }else{
                 JOptionPane.showMessageDialog(null, "Login e Senha não conferem...");
